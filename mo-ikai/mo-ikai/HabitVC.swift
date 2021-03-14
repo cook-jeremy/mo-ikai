@@ -8,7 +8,8 @@
 import UIKit
 
 class HabitVC: UIViewController {
-
+    
+    var reuseCellIdentifier:String = "HabitCell"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
